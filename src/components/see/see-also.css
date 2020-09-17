@@ -1,0 +1,43 @@
+.see-also-content-wrapper
+{
+    border: 6px solid rgba(10, 180, 61, 0.726);
+    border-radius: 10px;
+    background-color: rgba(85, 79, 85);
+    color: white;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.see-also-content-wrapper a
+{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto;
+
+    position: relative;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 6px 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600px;
+    border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+}
+
+.see-also-content-wrapper a:hover
+{
+    background: #fff;
+    color: #333;
+    
+}
+
+.see-also-content-wrapper h3
+{
+    margin-top: 30px;
+}

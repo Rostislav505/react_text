@@ -1,0 +1,50 @@
+.main-content-wrapper
+{
+    border: 6px solid rgba(10, 180, 61, 0.726);
+    border-radius: 10px;
+    background-color: rgba(85, 79, 85);
+    color: white;
+    width: 250px;
+    height: 360px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+}
+
+h3
+{
+    text-align: center;
+}
+
+p
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content-wrapper a
+{
+    text-decoration: none;
+    color: white;
+    margin: 0 75px;
+
+
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    padding: 6px 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600px;
+    border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+}
+
+.main-content-wrapper a:hover
+{
+    background: #fff;
+    color: #333;
+    
+}
